@@ -1,0 +1,25 @@
+/* importo fuente parrafos */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap");
+/* importo fuente titulos */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #dbc9c0;
+}
+
+.formatoTitulos {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #540679;
+  text-align: center;
+}
+
+.formatoTexto {
+  font-family: "Jost", cursive;
+  font-size: 1.5rem;
+  color: #540679;
+  margin-left: 4rem;
+}
